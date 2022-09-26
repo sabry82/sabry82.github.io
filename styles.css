@@ -63,7 +63,7 @@
     background-color: rgb(8, 31, 32) !important ;
 }
 
-.nav-item {
+footer .nav-item {
     width: 8em;
     text-align: center;
     margin: 0 2em 0 0;
