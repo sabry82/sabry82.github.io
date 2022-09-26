@@ -3,23 +3,32 @@
 }
 
 .navbar {
-    background-color: gray !important;
+    background-color: #353A40 !important;
 }
 
 .navbar-nav {
     font-size: 0.9rem;
 }
 
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
 .nav-link {
+    color: #9CA096 !important;
+}
+
+.nav-link.active {
+    font-weight: bold;
     color: white !important;
 }
 
-.nav-link .active {
-    font-weight: bold;
-}
-
 .verde {
-    color: greenyellow !important;
+    color: #2E9245 !important;
 }
 
 .headertext {
@@ -38,6 +47,11 @@
     height: 600px;
 }
 
+.header .btn-primary {
+    background-color: #29A644;
+    border: #29A644;
+}
+
 .headerImage {
     position: absolute;
     background-image: url(/images/ba1.jpg);
@@ -50,17 +64,17 @@
 }
 
 .btn-primary {
-    --bs-btn-bg: #0dfd35;
-    --bs-btn-border-color: #0dfd35;
+    --bs-btn-bg: #96C93E;
+    --bs-btn-border-color: #96C93E;
     --bs-btn-hover-bg: #098e1f;
-    --bs-btn-hover-border-color: #0dfd35;
-    --bs-btn-active-bg: #0dfd35;
-    --bs-btn-active-border-color: #0dfd35;
-    --bs-btn-disabled-bg: #0dfd35;
-    --bs-btn-disabled-border-color: #0dfd35;
+    --bs-btn-hover-border-color: #96C93E;
+    --bs-btn-active-bg: #96C93E;
+    --bs-btn-active-border-color: #96C93E;
+    --bs-btn-disabled-bg: #96C93E;
+    --bs-btn-disabled-border-color: #96C93E;
 }
 .footer-navbar {
-    background-color: rgb(8, 31, 32) !important ;
+    background-color: #1D4053 !important ;
 }
 
 footer .nav-item {
