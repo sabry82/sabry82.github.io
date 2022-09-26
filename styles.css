@@ -1,0 +1,71 @@
+.center {
+    width: 1024px;
+}
+
+.navbar {
+    background-color: gray !important;
+}
+
+.navbar-nav {
+    font-size: 0.9rem;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link .active {
+    font-weight: bold;
+}
+
+.verde {
+    color: greenyellow !important;
+}
+
+.headertext {
+    text-align: right;
+    margin-top: 4em;
+}
+
+.btn-outline-secondary {
+    color: white;
+    border-color: white;
+}
+
+.header {
+    position: relative;
+    color: white;
+    height: 600px;
+}
+
+.headerImage {
+    position: absolute;
+    background-image: url(/images/ba1.jpg);
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+}
+
+.btn-primary {
+    --bs-btn-bg: #0dfd35;
+    --bs-btn-border-color: #0dfd35;
+    --bs-btn-hover-bg: #098e1f;
+    --bs-btn-hover-border-color: #0dfd35;
+    --bs-btn-active-bg: #0dfd35;
+    --bs-btn-active-border-color: #0dfd35;
+    --bs-btn-disabled-bg: #0dfd35;
+    --bs-btn-disabled-border-color: #0dfd35;
+}
+.footer-navbar {
+    background-color: rgb(8, 31, 32) !important ;
+}
+
+.nav-item {
+    width: 8em;
+    text-align: center;
+    margin: 0 2em 0 0;
+    font-size: small;
+}
