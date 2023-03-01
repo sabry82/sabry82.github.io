@@ -5,7 +5,9 @@
 .navbar {
     background-color: #353A40 !important;
 }
-
+ .h1 {
+font-family: Arial, Helvetica, sans-serif;
+ }
 .navbar-nav {
     font-size: 0.9rem;
 }
@@ -15,7 +17,7 @@
 }
 
 .navbar-brand:hover {
-    color: white;
+    color: rgb(191, 88, 88);
 }
 
 .nav-link {
@@ -44,7 +46,7 @@
 .header {
     position: relative;
     color: white;
-    height: 600px;
+    height:600px;
 }
 
 .header .btn-primary {
@@ -54,13 +56,13 @@
 
 .headerImage {
     position: absolute;
-    background-image: url(/images/ba1.jpg);
+    background-image: url(/sabri.png);
     -webkit-filter: brightness(0.5);
     filter: brightness(0.5);
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-size: cover;
+    background-size:cover;
 }
 
 .btn-primary {
@@ -82,20 +84,4 @@ footer .nav-item {
     text-align: center;
     margin: 0 2em 0 0;
     font-size: small;
-}
-
-.title h6 {
-    font-size: small;
-    font-weight: 300;
-}
-
-.card-title button {
-    --bs-btn-padding-y: .10rem;
-     --bs-btn-padding-x: .25rem; 
-     --bs-btn-font-size: .75rem;
-     font-weight: bold;
-}
-
-.card-title button.btn-info{
-    color:white;
 }
